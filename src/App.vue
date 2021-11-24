@@ -1,18 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" width="25%">
-    <HelloWorld msg="Hello Vue in CodeSandbox!"/>
+    <!--Simple navigation buttons-->
+    <nav>
+        <router-link to='/'>Default</router-link>
+        <div/>
+        <router-link to='/home'>Home</router-link>
+        <div/>
+        <router-link to='/About'>About</router-link>
+        <div/>
+    </nav>
+
+    <!--The placeholder for the  routes-->
+    <router-view />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
-
 export default {
   name: "App",
-  components: {
-    HelloWorld
-  }
 };
 </script>
 
