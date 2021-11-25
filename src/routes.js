@@ -1,6 +1,6 @@
-import Home from './components/Home.vue';
-import About from './components/About.vue';
-import SimpleHomePage from "./components/SimpleHomePage"
+import Home from './pages/Home.vue';
+import About from './pages/About.vue';
+import SimpleHomePage from "./pages/SimpleHomePage"
 
 
 const routes = [
